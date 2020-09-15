@@ -17,8 +17,8 @@ client.on("guildMemberAdd", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '잘타년') {
-    return message.reply('ㅁㄹ걍 잘생겼다던데?👍 😍 ');
+  if(message.content == '케이') {
+    return message.reply('단수의 주인님이자, ICY서버 가이드 후덜덜... 멋지고! 잘생기고! 노래 잘부르는 멋진 냠쟈~👍 😍 ');
   }
 
   if(message.content == ('ICY')) {
